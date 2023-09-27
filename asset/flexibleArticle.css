@@ -23,7 +23,7 @@ article div h2{
     margin: 2px;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
 article{
     display: flex;
     flex-wrap: wrap-reverse;
