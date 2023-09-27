@@ -28,6 +28,9 @@ article{
     display: flex;
     flex-wrap: wrap-reverse;
 }
+article div{
+    margin: 0;
+}
 img{
     width: 100%;
 }
