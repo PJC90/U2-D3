@@ -4,17 +4,17 @@ body{
     color: #612406;
 }
 img{
-    width: 400px;
-    border-top-right-radius: 100px;
-    border-top-left-radius: 100px;
+    object-fit: cover;
 }
 
 main{
     background-color: #FBF7E3;
-    height: 500px;
-    width: 400px;
+    height: 450px;
+    width: 350px;
     border-radius: 100px;
-   
+    /* overflow hidden applicato al padre permette al figlio di nascondere
+    le parti non visibili vedi  img{object-fit: cover;} */
+    overflow: hidden; 
 }
 button{
     background-color: #F3DF85;
